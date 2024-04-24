@@ -1,0 +1,59 @@
+{% include 'header.html' %}
+{% block content %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css')}}">
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+<h1 class="text-center">DeepfakePedia Sandbox</h1>
+
+<div class="toolbar">
+    <label style="margin: 0 .5rem 0 0;" for="filename">Filename:</label>
+    <input style="margin: 0 .25rem 0 0" type="text" id="filename" name="filename">.json
+</div>
+
+<div class="toolbar">
+    <button onclick="saveJSON()">Save</button>
+    <input type="file" id="file-input" style="display: none;" accept=".json">
+    <button onclick="loadJSON()">Load</button>
+    <button onclick="openModal()">Add</button>
+    <button onclick="clearModule()">Clear</button>
+    <button onclick="openEditModal()"></button>
+</div>
+
+<div class="box">
+    <div class="content" id="text-content"></div>
+    <div class="content" id="media-content"></div>
+</div>
+<div class="toolbar">
+    Pages:
+</div>
+<div class="pages" id="pages"></div>
+<div id="addModal" class="modal">
+    <div class="modal-content">
+        <div style="display: flex;">
+            <div class="modal-form">
+                <label class="title" for="add-text">Text:</label>
+                <textarea name="add-text" id="add-text" rows="4" cols="50"></textarea>
+                <label class="title" for="add-media">Upload Image, Video, or Audio:</label>
+                <input class="file-input" type="file" id="add-media" accept="image/*,video/*,audio/*">
+                <button class="add-button" onclick="addItem()">Add Item</button>
+            </div>
+        </div>
+        <span class="close" onclick="closeModal()">&times;</span>
+    </div>
+</div>
+
+<div id="editModal" class="modal">
+    <div class="modal-content">
+        <div style="display: flex;">
+            <div class="modal-form">
+                <label class="title" for="edit-text">Text:</label>
+                <textarea name="add-text" id="edit-text" rows="4" cols="50"></textarea>
+                <label class="title" for="edit-media">Upload Image, Video, or Audio:</label>
+                <input class="file-input" type="file" id="edit-media" accept="image/*,video/*,audio/*">
+                <button class="add-button" onclick="editItem()">Edit Item</button>
+            </div>
+        </div>
+        <span class="close" onclick="closeEditModal()">&times;</span>
+    </div>
+</div>
+    <script src="{{url_for('static', filename='scripts/script.js')}}"></script>
+{% endblock %}

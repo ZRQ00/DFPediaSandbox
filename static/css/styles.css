@@ -1,0 +1,110 @@
+body{
+    font-family: "Nunito Sans", sans-serif;
+}
+.box{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+    min-height: 30rem;
+    margin: 0 5rem 0 5rem;
+}
+.toolbar{
+    display:flex;
+    justify-content: left;
+    margin: 0 5rem 1rem 5rem;
+}
+
+.toolbar button{
+    margin: 0 1rem 0 0;
+    padding: .5rem 2rem .5rem 2rem;
+}
+
+.text-center{
+    text-align:center;
+}
+
+.pages{
+    padding: .5rem 5rem .5rem 5rem;
+}
+
+.pages button{
+    margin: 0 1rem 0 0;
+    padding: .5rem 2rem .5rem 2rem;
+}
+
+.content{
+    margin: auto;
+    padding: 1rem;
+}
+
+.image{
+    width: 15rem;
+}
+
+
+/* modals */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    display: flex;
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: fit-content;
+    justify-content: space-between;
+}
+
+.modal-form{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.modal-form textarea{
+    resize: none;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: .5rem;
+    height: 20rem;
+}
+
+.modal-form .title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: .5rem 0 .5rem 0;
+}
+
+.modal-form .file-input{
+    margin: .5rem 0 .5rem 0;
+}
+
+.modal-form .add-button{
+    padding: 1rem;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
