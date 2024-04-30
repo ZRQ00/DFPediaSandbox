@@ -1,0 +1,38 @@
+[
+    {
+        "text": "Can AI generate videos too?<br> Well Of course! It can use media such as <br>images, audio, and other videos to create new videos.",
+        "content": null
+    },
+    {
+        "text": "Image to Video generation:<br>Video can be created by multiple images.",
+        "content": null
+    },
+    {
+        "text": "(Example of image to video generation)",
+        "content": null
+    },
+    {
+        "text": "Audio to Video generation:<br>Using features of the audio, AI can generate new videos that correspond to the audio.",
+        "content": null
+    },
+    {
+        "text": "(Example of audio to video generation)",
+        "content": null
+    },
+    {
+        "text": "Video to Video generation:<br>Using videos to:<br>Extend the source<br>Manipulate the existing video.",
+        "content": null
+    },
+    {
+        "text": "(Example of video to video generation)",
+        "content": null
+    },
+    {
+        "text": "We will explore more on video generation and more in the <a href='videomodule' style='font-weight: bold; color:#ae0000'>Deepfake Videos</a> module",
+        "content": null
+    },
+    {
+        "text": "<p>Please click on either Text, Image, Audio, or Video<br><br><img src='../static/img/1_2.jpg' alt='1_2.jpg' usemap='#AIGCmap'><map name='AIGCmap'><area target='' alt='' title='' href='/introtextmodule' coords='329,62,227,37' shape='rect'><area target='' alt='' title='' href='/introimagemodule' coords='75,187,182,210' shape='rect'><area target='' alt='' title='' href='/introvideomodule' coords='224,333,329,359' shape='rect'><area target='' alt='' title='' href='/introaudiomodule' coords='376,186,478,209' shape='rect'></map></p>",
+        "content": null
+    }
+]

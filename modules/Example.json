@@ -1,0 +1,13 @@
+[
+    {
+        "text": "Example Text",
+        "content": null
+    },
+    {
+        "text": "Example Image",
+        "content": {
+            "type": "image",
+            "filename": "static/uploads/1_2.jpg"
+        }
+    }
+]
