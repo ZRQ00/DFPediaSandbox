@@ -1,0 +1,26 @@
+[
+    {
+        "text": "Now that we're familiar with some of the basic concepts of image generation, let's talk about it in more depth.",
+        "content": null
+    },
+    {
+        "text": "<h1>Text to Image Generation</h1>\n<p>This is done by an AI that has already been trained. They\u2019ve seen a lot of images with the words that describe them. Then, they use that knowledge to create their version of the described image.</p>\n<p>This can be done by the tools that will be introduced later in this module.</p>",
+        "content": null
+    },
+    {
+        "text": "<h1>Image to Image generation</h1>\n<p>To generate an image from an image, the AI is trained with two images: the original image, and the new image with some modification.</p>\n<p>\nA way to think of this would be telling your computer to photoshop a picture for you.</p>\n<p><span style=\"color: red;font-weight: bold;\">Deepfakes</span> are an example of this.</p>\n<p>Deepfakes are digital media content\ncreated or manipulated using generative\nAI, most commonly used for images\nand videos.</p>",
+        "content": null
+    },
+    {
+        "text": "<h1>Noise to Image</h1>\n<p>What is noise? People usually refer to noise as random sound they hear. When we refer it to images, it is similar.</p><p>Noise in images is just random pixels in a canvas.\nAI can use what it has learned to create an imaginary image of something that it has seen before. It takes the noise and transforms it to a picture.</p>\n<p>This is similar to how people can think of a random picture of something in our heads.\n</p>",
+        "content": null
+    },
+    {
+        "text": "<h1>Tools for Generation</h1>\n<p>Some common tools for image generation include:\n</p><ul>\n<li><a href=\"https://www.midjourney.com/home\">Midjourney</a>: this tool can be accessed by joining its discord or adding it as a bot onto servers. Midjourney can take text prompts and generate images.</li>\n<li><a href=\"https://runwayml.com/\">Runway ML</a>: this website has multiple AI tools, these tools can generate images, and make changes to images listed in the previous section.</li>\n<li><a href=\"https://chat.openai.com/\">DALL-E3</a>: this tool comes with ChatGPT-4v</li>\n</ul>\n<p></p>",
+        "content": null
+    },
+    {
+        "text": "<h1>Deepfake Image Detection</h1>\n<p>Is it possible to distinguish between a real and fake image?</p>\n<p>Yes. When deepfakes are generated, some <span style=\"color:red;font-weight:bold\">artifacts</span> are generated.</p>\n<p><span style=\"color:red;\">Artifacts</span> are irregularities or uncommon features in manipulated or synthesised media content that expose\ntheir unauthentic nature.</p>",
+        "content": null
+    }
+]
