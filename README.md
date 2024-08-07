@@ -6,6 +6,7 @@ Features include:
 - Load new JSON file
 - Add new item to local JSON
 - Edit current item in local JSON
+- HTML elements can be added to JSON file
 - Clear current JSON file. 🛑**IMPORTANT**🛑 Function removes all current items in local JSON
 
 
@@ -49,4 +50,4 @@ Edits a selected item in local JSON.
 The button opens a new window similar to [Add](#add), the only difference is that the window is prefilled and is only used to change the current item.
 
 # Pages #
-Clicking on a page will replace the current contents showing in the main window with the content of the nth item.
+Clicking on a page will replace the current contents showing in the main window with the content of the N-th item.
